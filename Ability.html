@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predecessor Quiz - Fähigkeiten-Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="./Images/Logo/Logo.png" alt="Logo" class="logo" id="logo">
+    
+    <div id="ability-quiz-container" class="container">
+        <h1>Fähigkeiten-Quiz</h1>
+        <img id="ability-image" src="" alt="Ability Image">
+        <input type="text" id="ability-input" placeholder="Welcher Champion hat diese Fähigkeit?">
+        <button id="ability-submit-btn">Abschicken</button>
+        <p id="ability-result"></p>
+    </div>
+
+    <div class="about-me">
+        <p>&copy; Copy by Patrick Zablocki</p>
+    </div>
+
+    <script src="abilities.js"></script>
+    <Script src="script.js"></Script>
+    <script>
+        
+        function goToMainMenu() {
+            
+            const mainMenu = document.getElementById('main-menu') || parent.document.getElementById('main-menu');
+            if (mainMenu) {
+                mainMenu.style.display = 'block';
+        
+                
+                const quizContainer = document.getElementById('quiz-container');
+                if (quizContainer) {
+                    quizContainer.style.display = 'none';
+                }
+        
+                
+                const abilityContainer = document.getElementById('ability-quiz-container');
+                if (abilityContainer) {
+                    abilityContainer.style.display = 'none';
+                }
+            } else {
+                
+                window.location.href = 'index.html';
+            }
+        }
+
+        
+        const logo = document.getElementById('logo');
+        if (logo) {
+            logo.addEventListener('click', goToMainMenu);
+        }
+    </script>
+</body>
+</html>
