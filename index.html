@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predecessor Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="./Images/Logo/Logo.png" alt="Logo" class="logo" id="logo" onclick="goToMainMenu()">
+    <div id="main-menu" class="container">
+        <h1>Predecessor Quiz</h1>
+        <button id="classic-btn">Klassisch</button>
+        <button id="abilities-btn">Fähigkeiten</button>
+    </div>
+
+    <div id="quiz-container" class="container" style="display: none;">
+        <h1>Klassisches Quiz</h1>
+        <img id="champion-image" src="" alt="Champion Image">
+        <input type="text" id="champion-input" placeholder="Wer ist dieser Champion?">
+        <button id="submit-btn">Abschicken</button>
+        <p id="result"></p>
+    </div>
+
+    <div id="ability-container" class="container" style="display: none;">
+        <h1>Fähigkeiten-Quiz</h1>
+        <img id="ability-image" src="" alt="Ability Image">
+        <input type="text" id="ability-input" placeholder="Welcher Champion hat diese Fähigkeit?">
+        <button id="ability-submit-btn">Abschicken</button>
+        <p id="ability-result"></p>
+    </div>
+    <div class="about-me">
+        <p>&copy; Copy by Patrick Zablocki</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="abilities.js"></script>
+</body>
+</html>
+
