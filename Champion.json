@@ -35,6 +35,7 @@
     { "name": "Steel", "img": "./Images/Steel.webp" },
     { "name": "TwinBlast", "img": "./Images/TwinBlast.webp" },
     { "name": "Wraith", "img": "./Images/Wraith.webp" },
-    { "name": "Zarus", "img": "./Images/Zarus.webp" }
+    { "name": "Zarus", "img": "./Images/Zarus.webp" },
+    {"name": "Zinx", "img": "./Images/Zinx.webp"}
     
 ]
