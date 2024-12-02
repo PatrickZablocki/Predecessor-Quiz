@@ -33,8 +33,10 @@
     { "name": "Shinbi", "img": "./Images/Shinbi.webp" },
     { "name": "Sparrow", "img": "./Images/Sparrow.webp" },
     { "name": "Steel", "img": "./Images/Steel.webp" },
+    { "name": "Skylar", "img": "./Images/Skylar.webp"},
     { "name": "TwinBlast", "img": "./Images/TwinBlast.webp" },
     { "name": "Wraith", "img": "./Images/Wraith.webp" },
+    { "name": "Yin", "img": "./Images/Yin.webp"},
     { "name": "Zarus", "img": "./Images/Zarus.webp" },
     {"name": "Zinx", "img": "./Images/Zinx.webp"}
     
