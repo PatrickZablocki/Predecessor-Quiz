@@ -87,19 +87,19 @@ submitBtn.addEventListener('click', () => {
                                 <p>Anzahl der Versuche: ${attemptCount}</p>`;
         } else {
             result.innerHTML = `<p>Richtig! Deine Punktzahl: ${score}</p>
-                                <p>Du hast ${currentChampion.name} nach ${attemptCount} Versuchen erraten.</p>
-                                <p>Du bist der ${globalCount}, der heute den Champion gefunden hat</p>`;
+                                <p>Du hast ${currentChampion.name} nach ${attemptCount} Versuchen erraten, sehr gut.</p>
+                                <p>Du bist der ${globalCount}, der heute den Champion gefunden hat!!!</p>`;
         }
         result.style.color = 'green';
         setTimeout(() => {
             loadRandomChampion();
-        }, 3000);
+        }, 2000);
     } else {
         result.textContent = `Falsch! Versuch es erneut.`;
         result.style.color = 'red';
         setTimeout(() => {
             result.textContent = '';
-        }, 3000);
+        }, 2000);
     }
 });
 
