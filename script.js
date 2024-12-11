@@ -113,6 +113,9 @@ abilitiesBtn.addEventListener('click', () => {
     alert('Fähigkeiten-Quiz ist noch nicht implementiert.');
 });
 
+// Neuer Spielmodus soll hier rein , fragen und andere Sachen sollen hier rein.
+// Ca. 4 Sachen sollen dann in einem Vierreck hierrein und dadurch soll der Champion eratten werden 
+
 
 loadRandomChampion();
 
