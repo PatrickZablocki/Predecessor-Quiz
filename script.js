@@ -45,6 +45,7 @@ let attemptCount = 0;
 const mainMenu = document.getElementById('main-menu');
 const classicBtn = document.getElementById('classic-btn');
 const abilitiesBtn = document.getElementById('abilities-btn');
+const newModusBtn = document.getElementById('new-modus-btn');
 
 const quizContainer = document.getElementById('quiz-container');
 const championImage = document.getElementById('champion-image');
